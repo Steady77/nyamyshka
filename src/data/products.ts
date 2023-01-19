@@ -1,0 +1,48 @@
+import image from './../assets/images/cat.png';
+
+export const products = {
+	items: [
+		{
+			id: 1,
+			description: 'Сказочное заморское яство',
+			title: 'Нямушка',
+			subTitle: 'с фуа-гра',
+			portion: '10 порций',
+			present: 'мышь в подарок',
+			weight: 0.5,
+			unit: 'кг',
+			about: 'Печень утки разварная с артишоками.',
+			soldOutMessage: 'Печалька, с фуа-гра закончился.',
+			isSoldOut: false,
+			image,
+		},
+		{
+			id: 2,
+			description: 'Сказочное заморское яство',
+			title: 'Нямушка',
+			subTitle: 'с рыбой',
+			portion: '40 порций',
+			present: '2 мыши в подарок',
+			weight: 2,
+			unit: 'кг',
+			about: 'Головы щучьи с чесноком да свежайшая сёмгушка.',
+			soldOutMessage: 'Печалька, с рыбой закончился.',
+			isSoldOut: false,
+			image,
+		},
+		{
+			id: 3,
+			description: 'Сказочное заморское яство',
+			title: 'Нямушка',
+			subTitle: 'с курой',
+			portion: '100 порций',
+			present: '5 мышей в подарок заказчик доволен',
+			weight: 5,
+			unit: 'кг',
+			about: 'Филе из цыплят с трюфелями в бульоне.',
+			soldOutMessage: 'Печалька, с курой закончился.',
+			isSoldOut: true,
+			image,
+		},
+	],
+};
